@@ -47,7 +47,3 @@ Filtered (0): None
 ## How it works
 
 Like Nmap's `-sT` mode, the scanner performs a TCP connect scan: it tries to open a normal connection to each port using `socket.connect_ex()`. A result of `0` means the port is open, a "connection refused" error means it is closed, and any other result (such as a timeout) is reported as filtered.
-
-
-
-MIT License. Add a `LICENSE` file if you want this to apply.
